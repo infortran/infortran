@@ -22,11 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.9662522">
+              <caret line="1638" column="36" selection-start-line="1638" selection-start-column="36" selection-end-line="1638" selection-end-column="36" />
+              <caret line="1655" column="36" selection-start-line="1655" selection-start-column="36" selection-end-line="1655" selection-end-column="36" />
+              <caret line="1699" column="42" selection-start-line="1699" selection-start-column="42" selection-end-line="1699" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1545293">
-              <caret line="607" column="65" selection-start-line="607" selection-start-column="65" selection-end-line="607" selection-end-column="65" />
+            <state vertical-scroll-proportion="-10.538462">
+              <caret line="485" column="44" selection-start-line="485" selection-start-column="44" selection-end-line="485" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,11 +54,11 @@
       <list>
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/public/css/fontawesome.css" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/vendor/jetstream/components/application-logo.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/jetstream/components/authentication-card-logo.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/jetstream/components/application-mark.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -168,7 +180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,25 +367,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1663" column="20" selection-start-line="1663" selection-start-column="20" selection-end-line="1663" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/author.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/about2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/about1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -542,14 +541,29 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/about1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1545293">
-          <caret line="607" column="65" selection-start-line="607" selection-start-column="65" selection-end-line="607" selection-end-column="65" />
+        <state vertical-scroll-proportion="-10.538462">
+          <caret line="485" column="44" selection-start-line="485" selection-start-column="44" selection-end-line="485" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9662522">
+          <caret line="1638" column="36" selection-start-line="1638" selection-start-column="36" selection-end-line="1638" selection-end-column="36" />
+          <caret line="1655" column="36" selection-start-line="1655" selection-start-column="36" selection-end-line="1655" selection-end-column="36" />
+          <caret line="1699" column="42" selection-start-line="1699" selection-start-column="42" selection-end-line="1699" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

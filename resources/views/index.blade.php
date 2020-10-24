@@ -265,7 +265,7 @@
             </div>
             <div class="col-md-6">
                 <div id="about-slider" class="owl-carousel owl-theme">
-                    <img class="img-responsive" src="/images/about1.jpg" alt="">
+                    <img class="img-responsive" src="/images/ssl.jpg" alt="">
                     <img class="img-responsive" src="/images/about2.jpg" alt="">
                     <img class="img-responsive" src="/images/about1.jpg" alt="">
                     <img class="img-responsive" src="/images/about2.jpg" alt="">
@@ -283,7 +283,7 @@
             <div class="col-sm-3 col-xs-6">
                 <div class="number">
                     <i class="fa fa-users"></i>
-                    <h3 class="white-text"><span class="counter">2</span></h3>
+                    <h3 class="white-text"><span class="counter">soon</span></h3>
                     <span class="white-text">Clientes</span>
                 </div>
             </div>
@@ -304,7 +304,7 @@
             <div class="col-sm-3 col-xs-6">
                 <div class="number">
                     <i class="fa fa-file"></i>
-                    <h3 class="white-text"><span class="counter">2</span></h3>
+                    <h3 class="white-text"><span class="counter">1</span></h3>
                     <span class="white-text">Projectos completados</span>
                 </div>
             </div>
