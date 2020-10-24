@@ -243,22 +243,24 @@
                 <div class="section-header">
                     <h2 class="title">Por Qué Escogernos</h2>
                 </div>
-                <p>Somos una empresa joven, con ganas de oportunidades, nuevos clientes y mejorar el servicio a quienes ya confian en nosotros.</p>
+                <p>Somos una empresa joven, con ganas de oportunidades, nuevos clientes y mejorar el servicio a quienes ya confian en nosotros.
+                Queremos brindar la seguridad que cualquier cliente merece.
+                </p>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>Trabajamos con metodos seguros bajo estandares de calidad.</p>
+                    <p>Certificado SSL obligatorio de acuerdo al estandar <em>Let's Encrypt</em>.</p>
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>segunda .</p>
+                    <p>Frameworks de excelente calidad y buen soporte.</p>
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>tercera.</p>
+                    <p>Codigos limpios, escalables y mantenibles.</p>
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>cuarta.</p>
+                    <p>Metodologias Agiles en procesos de requerimientos como Scrum.</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -281,35 +283,35 @@
             <div class="col-sm-3 col-xs-6">
                 <div class="number">
                     <i class="fa fa-users"></i>
-                    <h3 class="white-text"><span class="counter">451</span></h3>
-                    <span class="white-text">Happy clients</span>
+                    <h3 class="white-text"><span class="counter">2</span></h3>
+                    <span class="white-text">Clientes</span>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="number">
                     <i class="fa fa-trophy"></i>
-                    <h3 class="white-text"><span class="counter">12</span></h3>
-                    <span class="white-text">Awards won</span>
+                    <h3 class="white-text"><span class="counter">soon</span></h3>
+                    <span class="white-text">Reconocimientos</span>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="number">
                     <i class="fa fa-coffee"></i>
                     <h3 class="white-text"><span class="counter">154</span>K</h3>
-                    <span class="white-text">Cups of Coffee</span>
+                    <span class="white-text">Tazas de café</span>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="number">
                     <i class="fa fa-file"></i>
-                    <h3 class="white-text"><span class="counter">45</span></h3>
-                    <span class="white-text">Projects completed</span>
+                    <h3 class="white-text"><span class="counter">2</span></h3>
+                    <span class="white-text">Projectos completados</span>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div id="pricing" class="section md-padding">
+<!--div-- id="pricing" class="section md-padding">
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
@@ -389,46 +391,18 @@
             </div>
         </div>
     </div>
-</div>
-<div id="testimonial" class="section md-padding">
-    <div class="bg-img" style="background-image: url('/images/background3.jpg');">
-        <div class="overlay"></div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div id="testimonial-slider" class="owl-carousel owl-theme">
-                    <div class="testimonial">
-                        <div class="testimonial-meta">
-                            <img src="/images/perso1.jpg" alt="">
-                            <h3 class="white-text">John Doe</h3>
-                            <span>Web Designer</span>
-                        </div>
-                        <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-                    </div>
-                    <div class="testimonial">
-                        <div class="testimonial-meta">
-                            <img src="/images/perso2.jpg" alt="">
-                            <h3 class="white-text">John Doe</h3>
-                            <span>Web Designer</span>
-                        </div>
-                        <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</div-->
 <div id="team" class="section md-padding">
     <div class="container">
-        <div class="row">
-            <div class="section-header text-center">
-                <h2 class="title">Our Team</h2>
-            </div>
+        <div class="section-header text-center">
+            <h2 class="title">El Equipo</h2>
+        </div>
+        <div class="row" style="display: flex; align-items: center;justify-content: center">
+
             <div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
-                        <img class="img-responsive" src="/images/team1.jpg" alt="">
+                        <img class="img-responsive" src="/images/beto-team.jpg" alt="">
                         <div class="overlay">
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -438,15 +412,16 @@
                         </div>
                     </div>
                     <div class="team-content">
-                        <h3>John Doe</h3>
-                        <span>Web Designer</span>
+                        <h3>Roberto Díaz</h3>
+                        <span>(CMO) Director de Marketing,</span>
+                        <span>Diseñador Web</span>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
-                        <img class="img-responsive" src="/images/team2.jpg" alt="">
+                        <img class="img-responsive" src="/images/freddy-team.jpg" alt="">
                         <div class="overlay">
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -456,12 +431,13 @@
                         </div>
                     </div>
                     <div class="team-content">
-                        <h3>John Doe</h3>
-                        <span>Web Designer</span>
+                        <h3>Freddy Pérez</h3>
+                        <span>(CEO) Director General,</span>
+                        <span>Full Stack Developer</span>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <!--div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
                         <img class="img-responsive" src="/images/team3.jpg" alt="">
@@ -478,15 +454,52 @@
                         <span>Web Designer</span>
                     </div>
                 </div>
+            </div-->
+        </div>
+    </div>
+</div>
+<div id="testimonial" class="section md-padding">
+    <div class="bg-img" style="background-image: url('/images/background3.jpg');">
+        <div class="overlay"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div id="testimonial-slider" class="owl-carousel owl-theme">
+                    <div class="testimonial">
+                        <div class="testimonial-meta">
+                            <img src="/images/beto-thumb.jpg" alt="">
+                            <h3 class="white-text">Roberto Díaz</h3>
+                            <span>Diseñador Web</span>
+                        </div>
+                        <p class="white-text">
+
+                        </p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-meta">
+                            <img src="/images/freddy-thumb.jpg" alt="">
+                            <h3 class="white-text">Freddy Pérez</h3>
+                            <span>Full Stack Developer</span>
+                        </div>
+                        <p class="white-text">
+                            "There have to be reasons that you get up in the morning and you want to live.
+                            Why do you want to live? What's the point? What inspires you? What do you love about the future?
+                            If the future does not include being out there among the stars and being a multi-planet species, I find that incredibly depressing."
+                            <br><em>Elon Musk.</em>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 <div id="blog" class="section md-padding bg-grey">
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
-                <h2 class="title">Recents news</h2>
+                <h2 class="title">Noticias Recientes</h2>
             </div>
             <div class="col-md-4">
                 <div class="blog">
@@ -546,36 +559,38 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
-                <h2 class="title">Get in touch</h2>
+                <h2 class="title">Contáctanos</h2>
             </div>
             <div class="col-sm-4">
                 <div class="contact">
-                    <i class="fa fa-phone"></i>
-                    <h3>Teléfono</h3>
-                    <p>512-421-3940</p>
+                    <i class="fa fa-phone-volume"></i>
+                    <h3>Ventas</h3>
+                    <p>(+56) 9 470 65 823</p>
+                    <p>ventas@infortran.cl</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="contact">
                     <i class="fa fa-envelope"></i>
                     <h3>Email</h3>
-                    <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0a6f676b63664a797f7a7a65787e24696567">[email&#160;protected]</a></p>
+                    <p>contacto@infortran.cl</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="contact">
-                    <i class="fa fa-map-marker"></i>
-                    <h3>Dirección</h3>
-                    <p>1739 Bubby Drive</p>
+                    <i class="fa fa-headset"></i>
+                    <h3>Soporte</h3>
+                    <p>(+56) 9 470 65 823</p>
+                    <p>soporte@infortran.cl</p>
                 </div>
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <form class="contact-form">
-                    <input type="text" class="input" placeholder="Name">
+                    <input type="text" class="input" placeholder="Tu nombre">
                     <input type="email" class="input" placeholder="Email">
-                    <input type="text" class="input" placeholder="Subject">
-                    <textarea class="input" placeholder="Message"></textarea>
-                    <button class="main-btn">Send message</button>
+                    <input type="text" class="input" placeholder="Descripción">
+                    <textarea class="input" placeholder="Mensaje"></textarea>
+                    <button class="main-btn">Enviar Mensaje</button>
                 </form>
             </div>
         </div>
@@ -589,8 +604,8 @@
                     <a href="/"><img src="images/logo-250-alt.png" alt="logo"></a>
                 </div>
                 <ul class="footer-follow">
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/Infortran.chile/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/Infortran_CL"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
