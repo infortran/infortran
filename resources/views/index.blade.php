@@ -12,6 +12,7 @@
     <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/fontawesome.css">
     <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -40,7 +41,7 @@
                 <li><a href="#about">Quienes somos</a></li>
                 <li><a href="#portfolio">Portafolio</a></li>
                 <li><a href="#service">Servicios</a></li>
-                <li><a href="#pricing">Precios</a></li>
+                <!--li><a href="#pricing">Precios</a></li-->
                 <li><a href="#team">Equipo</a></li>
                 <li class="has-dropdown"><a href="#blog">Noticias</a>
                     <ul class="dropdown">
@@ -60,8 +61,8 @@
                         <p class="white-text">Trabajamos con las mejores tecnologías desarrolladas por expertos, para
                             brindar sitios web y aplicaciones mas seguras y con excelentes experiencias del usuario
                         </p>
-                        <button class="white-btn">Contactanos!</button>
-                        <button class="main-btn">Quiero saber mas</button>
+                        <a href="#contact" class="white-btn btn-scrolling">Contactanos!</a>
+                        <a href="#about" class="main-btn btn-scrolling" >Quiero saber mas</a>
                     </div>
                 </div>
             </div>
@@ -84,9 +85,9 @@
             </div>
             <div class="col-md-4">
                 <div class="about">
-                    <i class="fa fa-magic"></i>
-                    <h3>Caracteristicas asombrosas</h3>
-                    <p>Si lo podemos programar, lo podremos implementar. Necesitas algo especifico? Nosotros nos encargamos.</p>
+                    <i class="fab fa-aws"></i>
+                    <h3>Apps Empresa</h3>
+                    <p>Aplicaciones Web, Android, IOS, con Servidores Virtuales Privados, desarrolladas por expertos.</p>
                     <a href="#">Saber mas</a>
                 </div>
             </div>
@@ -108,30 +109,30 @@
                 <h2 class="title">Portafolio</h2>
             </div>
             <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/work1.jpg" alt="">
+                <img class="img-responsive" src="/images/deliciasurbanas-portfolio.jpg" alt="">
                 <div class="overlay"></div>
                 <div class="work-content">
-                    <span>Category</span>
-                    <h3>Lorem ipsum dolor</h3>
+                    <span>Diseño de marca</span>
+                    <h3>Delicias Urbanas</h3>
                     <div class="work-link">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="/images/work1.jpg"><i class="fa fa-search"></i></a>
+                        <!--a href="#"><i class="fa fa-external-link"></i></a-->
+                        <a class="lightbox" href="/images/deliciasurbanas-portfolio.jpg"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/work2.jpg" alt="">
+                <img class="img-responsive" src="/images/comerciocentral-portfolio.jpg" alt="">
                 <div class="overlay"></div>
                 <div class="work-content">
-                    <span>Category</span>
-                    <h3>Lorem ipsum dolor</h3>
+                    <span>E-commerce App</span>
+                    <h3>Comercio Central</h3>
                     <div class="work-link">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="/images/work2.jpg"><i class="fa fa-search"></i></a>
+                        <a href="https://comerciocentral.cl"><i class="fa fa-link"></i></a>
+                        <a class="lightbox" href="/images/comerciocentral-portfolio.jpg"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-6 work">
+            <!--div class="col-md-4 col-xs-6 work">
                 <img class="img-responsive" src="/images/work3.jpg" alt="">
                 <div class="overlay"></div>
                 <div class="work-content">
@@ -142,43 +143,10 @@
                         <a class="lightbox" href="/images/work3.jpg"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/work4.jpg" alt="">
-                <div class="overlay"></div>
-                <div class="work-content">
-                    <span>Category</span>
-                    <h3>Lorem ipsum dolor</h3>
-                    <div class="work-link">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="/images/work4.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/work5.jpg" alt="">
-                <div class="overlay"></div>
-                <div class="work-content">
-                    <span>Category</span>
-                    <h3>Lorem ipsum dolor</h3>
-                    <div class="work-link">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="/images/work5.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/work6.jpg" alt="">
-                <div class="overlay"></div>
-                <div class="work-content">
-                    <span>Category</span>
-                    <h3>Lorem ipsum dolor</h3>
-                    <div class="work-link">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="/images/work6.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
+            </div-->
+
+
+
         </div>
     </div>
 </div>
@@ -256,7 +224,7 @@
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>Codigos limpios, escalables y mantenibles.</p>
+                    <p>Codigos limpios, escalables y mantenibles con patron de arquitectura de software MVC.</p>
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
@@ -585,12 +553,15 @@
                 </div>
             </div>
             <div class="col-md-8 col-md-offset-2">
-                <form class="contact-form">
+                <form id="mensaje-contacto-form" class="contact-form">
                     <input type="text" class="input" placeholder="Tu nombre">
                     <input type="email" class="input" placeholder="Email">
                     <input type="text" class="input" placeholder="Descripción">
                     <textarea class="input" placeholder="Mensaje"></textarea>
-                    <button class="main-btn">Enviar Mensaje</button>
+                    <div style="display:flex;align-items: center; justify-content: center">
+                        <div class="g-recaptcha" data-sitekey="6LeT4HQUAAAAAD2JvyEU6DLkICinbu62clk3-sG1"></div>
+                    </div>
+                    <button class="main-btn" type="submit">Enviar Mensaje</button>
                 </form>
             </div>
         </div>

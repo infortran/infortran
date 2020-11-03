@@ -241,7 +241,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .main-btn {
     background: var(--color-primary);
-    color: #FFF;
+    color: #FFF !important;
 }
 
 .white-btn {
