@@ -29,7 +29,7 @@
         <div class="container">
             <div class="navbar-header">
                 <div class="navbar-brand">
-                    <a href="index.html">
+                    <a href="/">
                         <img class="logo" src="/images/logo-250.png" alt="logo">
                         <img class="logo-alt" src="/images/logo-250-alt.png" alt="logo">
                     </a>
