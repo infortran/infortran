@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Infortran</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
@@ -555,14 +556,30 @@
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <form id="mensaje-contacto-form" class="contact-form">
-                    <input type="text" class="input" placeholder="Tu nombre">
-                    <input type="email" class="input" placeholder="Email">
-                    <input type="text" class="input" placeholder="Descripción">
-                    <textarea class="input" placeholder="Mensaje"></textarea>
-                    <div style="display:flex;align-items: center; justify-content: center">
-                        <div class="g-recaptcha" data-sitekey="6LeT4HQUAAAAAD2JvyEU6DLkICinbu62clk3-sG1"></div>
+                    <input id="input-contacto-name" type="text" class="input" placeholder="Tu nombre">
+
+                    <input id="input-contacto-email" type="email" class="input" placeholder="Email">
+
+                    <input id="input-contacto-subject" type="text" class="input" placeholder="Asunto">
+                    <textarea id="input-contacto-message" class="input" placeholder="Mensaje"></textarea>
+
+                    <div class="alert alert-danger contact-form-alerts">
+                        <ul>
+                            <li class="name-required"><i class="fa fa-exclamation-circle"></i> El campo Nombre es obligatorio</li>
+                            <li class="email-required"><i class="fa fa-exclamation-circle"></i> El campo Email es obligatorio</li>
+                            <li class="subject-required"><i class="fa fa-exclamation-circle"></i> El campo Asunto es obligatorio</li>
+                            <li class="message-required"><i class="fa fa-exclamation-circle"></i> El campo Mensaje es obligatorio</li>
+                            <li class="error-recaptcha"><i class="fa fa-exclamation-circle"></i> Error en ReCaptcha</li>
+                            <li class="email-format"><i class="fa fa-exclamation-circle"></i> El campo Email tiene un formato incorrecto</li>
+                            <li class="message-limit"><i class="fa fa-exclamation-circle"></i> El limite del mensaje es de 1000 caracteres</li>
+                        </ul>
+
                     </div>
-                    <button class="main-btn" type="submit">Enviar Mensaje</button>
+                    <div style="display:flex;align-items: center; justify-content: center">
+                        <div class="g-recaptcha" data-sitekey="{{env('CAPTCHA_KEY')}}"></div>
+                    </div>
+
+                    <button id="btn-enviar-mensaje" class="btn-send" type="submit">Enviar Mensaje</button>
                 </form>
             </div>
         </div>
@@ -578,9 +595,9 @@
                 <ul class="footer-follow">
                     <li><a href="https://www.facebook.com/Infortran.chile/"><i class="fab fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com/Infortran_CL"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    <li><a href=""><i class="fab fa-google-plus"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/freddy-p%C3%A9rez-pacheco"><i class="fab fa-linkedin"></i></a></li>
                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                 </ul>
                 <div class="footer-copyright">
@@ -599,6 +616,7 @@
         <span></span>
     </div>
 </div>
+@include('modals.modal-mensaje-enviado')
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>

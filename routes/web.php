@@ -21,6 +21,8 @@ Route::get('/blog-single', function(){
    return view('blog-single');
 });
 
+Route::post('/contacto', 'ContactController@send');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
