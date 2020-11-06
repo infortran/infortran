@@ -39,18 +39,18 @@
                 </div>
             </div>
             <ul class="main-nav nav navbar-nav navbar-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Quienes somos</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
-                <li><a href="#service">Servicios</a></li>
+                <li><a href="#home">@lang('index.home')</a></li>
+                <li><a href="#about">@lang('index.about') </a></li>
+                <li><a href="#portfolio">@lang('index.portfolio') </a></li>
+                <li><a href="#service">@lang('index.services') </a></li>
                 <!--li><a href="#pricing">Precios</a></li-->
-                <li><a href="#team">Equipo</a></li>
-                <li class="has-dropdown"><a href="#blog">Noticias</a>
+                <li><a href="#team">@lang('index.team') </a></li>
+                <li class="has-dropdown"><a href="#blog">@lang('index.news') </a>
                     <ul class="dropdown">
                         <li><a href="blog-single">Blog de Noticias</a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contact">@lang('index.contact') </a></li>
             </ul>
         </div>
     </nav>
@@ -59,12 +59,10 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="home-content">
-                        <h1 class="white-text">Seguridad y diseño</h1>
-                        <p class="white-text">Trabajamos con las mejores tecnologías desarrolladas por expertos, para
-                            brindar sitios web y aplicaciones mas seguras y con excelentes experiencias del usuario
-                        </p>
-                        <a href="#contact" class="white-btn btn-scrolling">Contactanos!</a>
-                        <a href="#about" class="main-btn btn-scrolling" >Quiero saber mas</a>
+                        <h1 class="white-text">@lang('index.title') </h1>
+                        <p class="white-text">@lang('index.subtitle') </p>
+                        <a href="#contact" class="white-btn btn-scrolling">@lang('index.btn-contact') </a>
+                        <a href="#about" class="main-btn btn-scrolling" >@lang('index.btn-more') </a>
                     </div>
                 </div>
             </div>
@@ -75,30 +73,30 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
-                <h2 class="title">Bienvenidos a Infortran</h2>
+                <h2 class="title">@lang('about.title')</h2>
             </div>
             <div class="col-md-4">
                 <div class="about">
                     <i class="fa fa-cogs"></i>
-                    <h3>Apps y Webs Personales</h3>
-                    <p>Tu sitio, app o CMS hechos a tu medida, con un diseño personalizado o una plantilla a tu elección.</p>
-                    <a href="#">Saber mas</a>
+                    <h3>@lang('about.about_1_title')</h3>
+                    <p>@lang('about.about_1_content')</p>
+                    <a href="#">@lang('about.btn_more')</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="about">
                     <i class="fab fa-aws"></i>
-                    <h3>Apps Empresa</h3>
-                    <p>Aplicaciones Web, Android, IOS, con Servidores Virtuales Privados, desarrolladas por expertos.</p>
-                    <a href="#">Saber mas</a>
+                    <h3>@lang('about.about_2_title')</h3>
+                    <p>@lang('about.about_2_content')</p>
+                    <a href="#">@lang('about.btn_more')</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="about">
                     <i class="fa fa-mobile"></i>
-                    <h3>Full Responsive</h3>
-                    <p>Nos encargamos que tus proyectos sean compatibles con la mayoria de resoluciones existentes en el mercado.</p>
-                    <a href="#">Saber mas</a>
+                    <h3>@lang('about.about_3_title')</h3>
+                    <p>@lang('about.about_3_content')</p>
+                    <a href="#">@lang('about.btn_more')</a>
                 </div>
             </div>
         </div>
@@ -156,51 +154,48 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
-                <h2 class="title">Que ofrecemos</h2>
+                <h2 class="title">@lang('services.title')</h2>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service">
                     <i class="fa fa-gem"></i>
-                    <h3>Desarrollo Web y App</h3>
-                    <p>Nos encargamos de hacer tu proyecto real, ya sea un sitio, una aplicación o un sistema
-                        completo con apps, CMS web y landing page.</p>
+                    <h3>@lang('services.serv_1_title')</h3>
+                    <p>@lang('services.serv_1_content')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service">
                     <i class="fa fa-rocket"></i>
-                    <h3>Diseño Gráfico</h3>
-                    <p>Conceptos como Material Design, Flat y otros que aportaran al desarrollo de tu idea, respetando los parametros de diseño de grandes como Google.</p>
+                    <h3>@lang('services.serv_2_title')</h3>
+                    <p>@lang('services.serv_2_content')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service">
                     <i class="fa fa-cogs"></i>
-                    <h3>Aportamos a tu Idea</h3>
-                    <p>A veces pensar en todos los detalles de un proyecto es complejo, para eso,
-                    nosotros te asesoramos con ideas creativas e innovadoras en el area digital.</p>
+                    <h3>@lang('services.serv_3_title')</h3>
+                    <p>@lang('services.serv_3_content')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service">
                     <i class="fa fa-bullhorn"></i>
-                    <h3>Marketing y SEO/SEM</h3>
-                    <p>Analisis, gestión de marketing digital y posicionamiento web a tu medida.</p>
+                    <h3>@lang('services.serv_4_title')</h3>
+                    <p>@lang('services.serv_4_content')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service">
                     <i class="fa fa-headset"></i>
-                    <h3>Soporte Integral</h3>
-                    <p>Atentos a resolver tu problemas y brindar soluciones eficientes y puntuales.</p>
+                    <h3>@lang('services.serv_5_title')</h3>
+                    <p>@lang('services.serv_5_content')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="service">
                     <i class="fa fa-flask"></i>
-                    <h3>Diseño de marca</h3>
-                    <p>Si aun no cuentas con una marca o quieres mejorar tu marca,
-                        entonces aca estamos para ayudarte.</p>
+                    <h3>@lang('services.serv_6_title')</h3>
+                    <p>@lang('services.serv_6_content')</p>
                 </div>
             </div>
         </div>
@@ -211,26 +206,25 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="section-header">
-                    <h2 class="title">Por Qué Escogernos</h2>
+                    <h2 class="title">@lang('services.why_title')</h2>
                 </div>
-                <p>Somos una empresa joven, con ganas de oportunidades, nuevos clientes y mejorar el servicio a quienes ya confian en nosotros.
-                Queremos brindar la seguridad que cualquier cliente merece.
+                <p>@lang('services.why_subtitle')
                 </p>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>Certificado SSL obligatorio de acuerdo al estandar <em>Let's Encrypt</em>.</p>
+                    <p>@lang('services.why_item_1')</p>
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>Frameworks de excelente calidad y buen soporte.</p>
+                    <p>@lang('services.why_item_2')</p>
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>Codigos limpios, escalables y mantenibles con patron de arquitectura de software MVC.</p>
+                    <p>@lang('services.why_item_3')</p>
                 </div>
                 <div class="feature">
                     <i class="fa fa-check"></i>
-                    <p>Metodologias Agiles en procesos de requerimientos como Scrum.</p>
+                    <p>@lang('services.why_item_4')</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -365,7 +359,7 @@
 <div id="team" class="section md-padding">
     <div class="container">
         <div class="section-header text-center">
-            <h2 class="title">El Equipo</h2>
+            <h2 class="title">@lang('team.title')</h2>
         </div>
         <div class="row" style="display: flex; align-items: center;justify-content: center">
 
@@ -469,7 +463,7 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
-                <h2 class="title">Noticias Recientes</h2>
+                <h2 class="title">@lang('news.title')</h2>
             </div>
             <div class="col-md-4">
                 <div class="blog">
@@ -529,7 +523,7 @@
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
-                <h2 class="title">Contáctanos</h2>
+                <h2 class="title">@lang('contact.title')</h2>
             </div>
             <div class="col-sm-4">
                 <div class="contact">
