@@ -530,14 +530,15 @@
                     <i class="fa fa-phone-volume"></i>
                     <h3>Ventas</h3>
                     <p>(+56) 9 470 65 823</p>
-                    <p>ventas@infortran.cl</p>
+                    <p>mayerlin.urbina.trabajo@gmail.com</p>
+
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="contact">
                     <i class="fa fa-envelope"></i>
                     <h3>Email</h3>
-                    <p>contacto@infortran.cl</p>
+                    <p>infortran.chile@gmail.com</p>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -545,7 +546,7 @@
                     <i class="fa fa-headset"></i>
                     <h3>Soporte</h3>
                     <p>(+56) 9 470 65 823</p>
-                    <p>soporte@infortran.cl</p>
+                    <p>freddy.perez.trabajos@gmail.com</p>
                 </div>
             </div>
             <div class="col-md-8 col-md-offset-2">
