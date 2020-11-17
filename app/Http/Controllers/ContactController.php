@@ -13,10 +13,10 @@ class ContactController extends Controller
     public function send(Request $request){
         if($request->ajax()){
             $validation = Validator::make($request->all(), [
-                'name' => 'required|max:20',
+                'name' => 'required|max:20|regex:/(^([a-zA-Z _]+)(\d+)?$)/u',
                 'email' => 'required|email|max:50',
-                'subject' => 'required|max:50',
-                'message' => 'required|max:1000',
+                'subject' => 'required|max:50|regex:/(^([a-zA-Z _]+)(\d+)?$)/u',
+                'message' => 'required|max:1000|regex:/(^([a-zA-Z _]+)(\d+)?$)/u',
                 'g-recaptcha-response' => new Captcha()
             ]);
             if (!$validation->passes()) {

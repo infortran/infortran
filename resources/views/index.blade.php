@@ -363,7 +363,7 @@
         </div>
         <div class="row" style="display: flex; align-items: center;justify-content: center">
 
-            <div class="col-sm-4">
+            <!--div-- class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
                         <img class="img-responsive" src="/images/beto-team.jpg" alt="">
@@ -381,7 +381,7 @@
                         <span>Diseñador Web</span>
                     </div>
                 </div>
-            </div>
+            </div-->
             <div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
@@ -430,16 +430,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div id="testimonial-slider" class="owl-carousel owl-theme">
-                    <div class="testimonial">
-                        <div class="testimonial-meta">
-                            <img src="/images/beto-thumb.jpg" alt="">
-                            <h3 class="white-text">Roberto Díaz</h3>
-                            <span>Diseñador Web</span>
-                        </div>
-                        <p class="white-text">
 
-                        </p>
-                    </div>
                     <div class="testimonial">
                         <div class="testimonial-meta">
                             <img src="/images/freddy-thumb.jpg" alt="">
@@ -453,13 +444,24 @@
                             <br><em>Elon Musk.</em>
                         </p>
                     </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-meta">
+                            <!--img src="/images/beto-thumb.jpg" alt=""-->
+                            <h3 class="white-text">Coming soon</h3>
+                            <span>---</span>
+                        </div>
+                        <p class="white-text">
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div id="blog" class="section md-padding bg-grey">
+<!--div id="blog" class="section md-padding bg-grey">
     <div class="container">
         <div class="row">
             <div class="section-header text-center">
@@ -518,7 +520,7 @@
             </div>
         </div>
     </div>
-</div>
+</div-->
 <div id="contact" class="section md-padding">
     <div class="container">
         <div class="row">
