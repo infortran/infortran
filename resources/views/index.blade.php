@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Infortran</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="og:image" content="{{asset('/images/logo-1000.png')}}" />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="442" />
+    <meta name="robots" content="index, follow"/>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
@@ -121,31 +125,31 @@
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/comerciocentral-portfolio.jpg" alt="">
+                <img class="img-responsive" src="{{asset('/images/comerciocentral-portfolio.jpg')}}" alt="Comercio Central Website">
                 <div class="overlay"></div>
                 <div class="work-content">
                     <span>E-commerce App</span>
                     <h3>Comercio Central</h3>
                     <div class="work-link">
                         <a href="https://comerciocentral.cl"><i class="fa fa-link"></i></a>
-                        <a class="lightbox" href="/images/comerciocentral-portfolio.jpg"><i class="fa fa-search"></i></a>
+                        <a class="lightbox" href="{{asset('/images/comerciocentral-portfolio.jpg')}}"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
-            <!--div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/work3.jpg" alt="">
+
+
+            <div class="col-md-4 col-xs-6 work">
+                <img class="img-responsive" src="{{asset('/images/estacionriquelme-portfolio.png')}}" alt="Comercio Central Website">
                 <div class="overlay"></div>
                 <div class="work-content">
-                    <span>Category</span>
-                    <h3>Lorem ipsum dolor</h3>
+                    <span>Website</span>
+                    <h3>Estacion Riquelme</h3>
                     <div class="work-link">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="/images/work3.jpg"><i class="fa fa-search"></i></a>
+                        <a href="https://estacionriquelme.cl"><i class="fa fa-link"></i></a>
+                        <a class="lightbox" href="{{asset('/images/estacionriquelme-portfolio.png')}}"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
-            </div-->
-
-
+            </div>
 
         </div>
     </div>
