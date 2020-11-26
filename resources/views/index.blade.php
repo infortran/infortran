@@ -609,14 +609,14 @@
     </div>
 </footer>
 <div id="back-to-top"></div>
-<div id="preloader">
+<!--div id="preloader">
     <div class="preloader">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
     </div>
-</div>
+</div-->
 @include('modals.modal-mensaje-enviado')
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
