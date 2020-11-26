@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'IndexController@redirectLang');
+Route::get('/', 'IndexController@index');
 Route::get('/{lang}', 'IndexController@index');
 
 Route::get('/blog-single', function(){

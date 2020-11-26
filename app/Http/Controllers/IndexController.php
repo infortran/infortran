@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\App;
 
 class IndexController extends Controller
 {
-    public function index($lang){
+    public function index($lang = 'es'){
         App::setLocale($lang);
         return view('index');
     }
