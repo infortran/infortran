@@ -8,11 +8,11 @@
     <meta name="description" content="Servicios Informáticos de confianza, Apps Multiplataforma, Diseño, Programación." />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="author" content="Infortran, Servicios Informáticos - Freddy Pérez" />
-    <!--meta property="og:image" content="{{asset('/images/background.jpg')}}" />
+    <meta property="og:image" content="{{asset('/images/background.jpg')}}" />
     <meta property="og:image:width" content="640" />
     <meta property="og:image:height" content="442" />
     <meta property="og:title" content="Infortran Soluciones Informáticas.">
-    <meta property="og:url" content="https://infortran.cl"-->
+    <meta property="og:url" content="https://infortran.cl">
     <meta name="robots" content="index, follow"/>
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('/favicon.ico')}}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
