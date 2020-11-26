@@ -13,7 +13,7 @@
     <meta property="og:image:height" content="442" />
     <meta property="og:title" content="Infortran Soluciones Informáticas.">
     <meta property="og:url" content="https://infortran.cl">
-    <meta name="robots" content="index, follow"/>
+    <meta name="robots" content="index,follow"/>
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('/favicon.ico')}}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
@@ -38,8 +38,8 @@
             <div class="navbar-header">
                 <div class="navbar-brand">
                     <a href="/">
-                        <img class="logo" src="/images/logo-250.png" alt="logo">
-                        <img class="logo-alt" src="/images/logo-250-alt.png" alt="logo">
+                        <img class="logo" src="{{asset('/images/logo-250.png')}}" alt="Infortran">
+                        <img class="logo-alt" src="{{'/images/logo-250-alt.png'}}" alt="Infortran">
                     </a>
                 </div>
                 <div class="nav-collapse">
