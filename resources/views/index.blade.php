@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Infortran</title>
+    <meta name="description" content="Servicios Informáticos de confianza, Apps Multiplataforma, Diseño, Programación." />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta property="og:image" content="{{asset('/images/logo-1000.png')}}" />
+    <meta name="author" content="Infortran, Servicios Informáticos - Freddy Pérez"
+    <meta property="og:image" content="{{asset('/images/background.jpg')}}" />
     <meta property="og:image:width" content="640" />
     <meta property="og:image:height" content="442" />
     <meta name="robots" content="index, follow"/>
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/favicon.ico')}}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
-    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
-    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('css/owl.theme.default.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/fontawesome.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{asset('css/style.css')}}" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -618,11 +620,11 @@
     </div>
 </div-->
 @include('modals.modal-mensaje-enviado')
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jquery.magnific-popup.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
