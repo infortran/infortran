@@ -29,9 +29,13 @@ class ContactController extends Controller
                 'subject' => request('subject'),
                 'message' => request('message')
             ];
-            Mail::to(env('MAIL_TO_ADDR'))->send(new ContactFormMail($data));
+            try{
+                Mail::to(env('MAIL_TO_ADDR'))->send(new ContactFormMail($data));
+                return json_encode(['status' => 'ok']);
+            }catch(Exception $e){
+                return json_encode(['status' => 'err', 'message' => $e->getMessage()]);
+            }
 
-            return json_encode(['status' => 'ok']);
         }
     }
 }
