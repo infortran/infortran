@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e1631cf-c768-4618-8a5f-820c36a83aa3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <ignored path="infortran.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,20 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="18" column="86" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#noscript#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gtm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/gtm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,7 +50,7 @@
       <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62477875">
+            <state vertical-scroll-proportion="0.6315789">
               <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
               <folding />
             </state>
@@ -105,8 +118,9 @@
         <option value="/Volumes/Respaldo/PROYECTOS/Development tools/themes/cellphone/index.html" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+        <option value="$PROJECT_DIR$/public/js/gtm.js" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -124,7 +138,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="709" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -151,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,7 +279,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,6 +339,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,6 +356,9 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -369,6 +386,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -384,10 +413,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33441034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3457189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -423,13 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/View/Components/AppLayout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/vendor/jetstream/components/application-logo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.031716418">
@@ -754,15 +776,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="18" column="86" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/gtm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62477875">
+        <state vertical-scroll-proportion="0.6315789">
           <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
           <folding />
         </state>
