@@ -5,7 +5,7 @@
                 <h2 class="title">Portafolio</h2>
             </div>
             <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="/images/deliciasurbanas-portfolio.jpg" alt="">
+                <img class="img-responsive" src="/images/deliciasurbanas-portfolio.jpg" alt="Delicias Urbanas Diseño">
                 <div class="overlay"></div>
                 <div class="work-content">
                     <span>Diseño de marca</span>
@@ -31,7 +31,7 @@
 
 
             <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="{{asset('/images/estacionriquelme-portfolio.png')}}" alt="Comercio Central Website">
+                <img class="img-responsive" src="{{asset('/images/estacionriquelme-portfolio.png')}}" alt="Estacion Riquelme">
                 <div class="overlay"></div>
                 <div class="work-content">
                     <span>Website</span>

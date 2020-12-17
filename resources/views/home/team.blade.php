@@ -27,7 +27,7 @@
             <div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
-                        <img class="img-responsive" src="/images/freddy-team.jpg" alt="">
+                        <img class="img-responsive" src="{{asset('/images/freddy-team.jpg')}}" alt="Freddy Perez CEO Infortran">
                         <div class="overlay">
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -43,10 +43,10 @@
                     </div>
                 </div>
             </div>
-            <!--div class="col-sm-4">
+            <div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
-                        <img class="img-responsive" src="/images/team3.jpg" alt="">
+                        <img class="img-responsive" src="{{asset('images/ale.jpg')}}" alt="Alexander Perez Frontend Developer" >
                         <div class="overlay">
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -56,11 +56,11 @@
                         </div>
                     </div>
                     <div class="team-content">
-                        <h3>John Doe</h3>
-                        <span>Web Designer</span>
+                        <h3>Alexander Pérez</h3>
+                        <span>Frontend Developer</span>
                     </div>
                 </div>
-            </div-->
+            </div>
         </div>
     </div>
 </div>

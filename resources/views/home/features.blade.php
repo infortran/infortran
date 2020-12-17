@@ -26,10 +26,10 @@
             </div>
             <div class="col-md-6">
                 <div id="about-slider" class="owl-carousel owl-theme">
-                    <img class="img-responsive" src="/images/ssl.jpg" alt="">
-                    <img class="img-responsive" src="/images/about2.jpg" alt="">
-                    <img class="img-responsive" src="/images/about1.jpg" alt="">
-                    <img class="img-responsive" src="/images/about2.jpg" alt="">
+                    <img class="img-responsive" src="/images/ssl.jpg" alt="Infortran SSL Https">
+                    <img class="img-responsive" src="/images/about2.jpg" alt="Infortran Team">
+                    <img class="img-responsive" src="/images/about1.jpg" alt="Infortran 2">
+                    <img class="img-responsive" src="/images/about2.jpg" alt="Infortran 3">
                 </div>
             </div>
         </div>

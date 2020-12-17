@@ -7,7 +7,7 @@
             <div class="col-md-4">
                 <div class="blog">
                     <div class="blog-img">
-                        <img class="img-responsive" src="/images/blog1.jpg" alt="">
+                        <img class="img-responsive" src="{{asset('/images/blog1.jpg')}}" alt="Infortran">
                     </div>
                     <div class="blog-content">
                         <ul class="blog-meta">
