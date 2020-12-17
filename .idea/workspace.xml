@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e1631cf-c768-4618-8a5f-820c36a83aa3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/blog.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/blog.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/features.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/features.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/portfolio.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/portfolio.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/team.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/team.blade.php" />
     </list>
     <ignored path="infortran.iws" />
@@ -41,8 +37,8 @@
       <file leaf-file-name="team.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home/team.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.2938053">
-              <caret line="29" column="127" selection-start-line="29" selection-start-column="127" selection-end-line="29" selection-end-column="127" />
+            <state vertical-scroll-proportion="0.6017699">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -688,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/team.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2938053">
-          <caret line="29" column="127" selection-start-line="29" selection-start-column="127" selection-end-line="29" selection-end-column="127" />
+        <state vertical-scroll-proportion="0.6017699">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding />
         </state>
       </provider>

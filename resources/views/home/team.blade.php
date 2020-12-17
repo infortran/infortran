@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div-->
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="team">
                     <div class="team-img">
                         <img class="img-responsive" src="{{asset('/images/freddy-team.jpg')}}" alt="Freddy Perez CEO Infortran">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="team">
                     <div class="team-img">
                         <img class="img-responsive" src="{{asset('images/ale.jpg')}}" alt="Alexander Perez Frontend Developer" >
