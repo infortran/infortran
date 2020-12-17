@@ -9,7 +9,7 @@ class IndexController extends Controller
 {
     public function index($lang = 'es'){
         App::setLocale($lang);
-        return view('index');
+        return view('home.index');
     }
 
     public function redirectLang(){

@@ -1,87 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <script src="{{asset('js/gtm.js')}}"></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Infortran</title>
-    <meta name="description" content="Servicios Informáticos de confianza, Apps Multiplataforma, Diseño, Programación." />
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="author" content="Infortran, Servicios Informáticos - Freddy Pérez" />
-    <meta property="og:image" content="{{asset('/images/background.jpg')}}" />
-    <meta property="og:image:width" content="640" />
-    <meta property="og:image:height" content="442" />
-    <meta property="og:title" content="Infortran Soluciones Informáticas.">
-    <meta property="og:url" content="https://infortran.cl">
-    <meta name="robots" content="index,follow"/>
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/favicon.ico')}}">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
-    <link type="text/css" rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" />
-    <link type="text/css" rel="stylesheet" href="{{asset('css/owl.theme.default.css')}}" />
-    <link type="text/css" rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/fontawesome.css')}}">
-    <link type="text/css" rel="stylesheet" href="{{asset('css/style.css')}}" />
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT8B33R"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<body>
-<header id="home">
-    <div class="bg-img" style="background-image: url('/images/background.jpg');">
-        <div class="overlay"></div>
-    </div>
-    <nav id="nav" class="navbar nav-transparent">
-        <div class="container">
-            <div class="navbar-header">
-                <div class="navbar-brand">
-                    <a href="/">
-                        <img class="logo" src="{{asset('/images/logo-250.png')}}" alt="Infortran">
-                        <img class="logo-alt" src="{{'/images/logo-250-alt.png'}}" alt="Infortran">
-                    </a>
-                </div>
-                <div class="nav-collapse">
-                    <span></span>
-                </div>
-            </div>
-            <ul class="main-nav nav navbar-nav navbar-right">
-                <li><a href="#home">@lang('index.home')</a></li>
-                <li><a href="#about">@lang('index.about') </a></li>
-                <li><a href="#portfolio">@lang('index.portfolio') </a></li>
-                <li><a href="#service">@lang('index.services') </a></li>
-                <!--li><a href="#pricing">Precios</a></li-->
-                <li><a href="#team">@lang('index.team') </a></li>
-                <li class="has-dropdown"><a href="#blog">@lang('index.news') </a>
-                    <ul class="dropdown">
-                        <li><a href="blog-single">Blog de Noticias</a></li>
-                    </ul>
-                </li>
-                <li><a href="#contact">@lang('index.contact') </a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="home-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="home-content">
-                        <h1 class="white-text">@lang('index.title') </h1>
-                        <p class="white-text">@lang('index.subtitle') </p>
-                        <a href="#contact" class="white-btn btn-scrolling">@lang('index.btn-contact') </a>
-                        <a href="#about" class="main-btn btn-scrolling" >@lang('index.btn-more') </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+@extends('templates.main')
+
+@section('content')
+
+<!-- Header goes here -->
+@include('home.header')
+
+
 <div id="about" class="section md-padding">
     <div class="container">
         <div class="row">
@@ -628,10 +552,4 @@
 </div-->
 @include('modals.modal-mensaje-enviado')
 
-<script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/jquery.magnific-popup.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/main.js')}}"></script>
-</body>
-</html>
+@endsection
