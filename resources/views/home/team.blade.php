@@ -3,7 +3,7 @@
         <div class="section-header text-center">
             <h2 class="title">@lang('team.title')</h2>
         </div>
-        <div class="row" style="display: flex; align-items: center;justify-content: center">
+        <div class="row team-container">
 
             <!--div-- class="col-sm-4">
                 <div class="team">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div-->
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
                         <img class="img-responsive" src="{{asset('/images/freddy-team.jpg')}}" alt="Freddy Perez CEO Infortran">
@@ -43,10 +43,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <div class="team">
                     <div class="team-img">
-                        <img class="img-responsive" src="{{asset('images/ale.jpg')}}" alt="Alexander Perez Frontend Developer" >
+                        <img class="img-responsive" src="{{asset('images/ale.jpg')}}" alt="Alexander Perez Frontend Developer">
                         <div class="overlay">
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook"></i></a>
