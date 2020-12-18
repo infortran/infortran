@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', 'IndexController@index');
-Route::get('/{lang}', 'IndexController@index');
+
 
 Route::get('/blog-single', function(){
    return view('blog-single');
