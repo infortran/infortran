@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://infortran.cl/images/logo-250.png" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://infortran.cl/images/logo-250.png" width="250"></a></p>
 
 
 
