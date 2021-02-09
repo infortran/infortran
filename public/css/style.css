@@ -179,7 +179,7 @@ ul, ol {
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: .8;
+    opacity: .4;
     background: #1C1D21;
 }
 
@@ -1606,6 +1606,10 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     margin: 0;
+}
+
+.carousel-header-home{
+    top: -72px;
 }
 
 
