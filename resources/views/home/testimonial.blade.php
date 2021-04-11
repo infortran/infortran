@@ -9,7 +9,7 @@
 
                     <div class="testimonial">
                         <div class="testimonial-meta">
-                            <img src="/images/freddy-thumb.jpg" alt="">
+                            <img src="/images/freddy-thumb.jpg" alt="Freddy Perez">
                             <h3 class="white-text">Freddy Pérez</h3>
                             <span>Full Stack Developer</span>
                         </div>
@@ -23,12 +23,15 @@
 
                     <div class="testimonial">
                         <div class="testimonial-meta">
-                            <!--img src="/images/beto-thumb.jpg" alt=""-->
-                            <h3 class="white-text">Coming soon</h3>
-                            <span>---</span>
+                            <img src="/images/mayerlin-thumb.jpg" alt="Mayerlin Urbina">
+                            <h3 class="white-text">Mayerlin Urbina</h3>
+                            <span>Key Account Supervisor</span>
                         </div>
                         <p class="white-text">
-
+                            "Son nuestras elecciones, las que muestran lo que somos, mucho más que nuestras habilidades.
+                            <br>
+                            No te den lástima los muertos, sino más bien los vivos, y sobre todo los que viven sin amor."
+                            <br><em>Albus Dumbledore.</em>
                         </p>
                     </div>
                 </div>

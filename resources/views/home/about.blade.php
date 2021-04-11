@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-4">
                 <div class="about">
-                    <i class="fab fa-aws"></i>
+                    <i class="fa fa-rocket"></i>
                     <h3>@lang('about.about_2_title')</h3>
                     <p>@lang('about.about_2_content')</p>
                     <a href="#">@lang('about.btn_more')</a>
@@ -22,7 +22,7 @@
             </div>
             <div class="col-md-4">
                 <div class="about">
-                    <i class="fa fa-mobile"></i>
+                    <i class="fa fa-chart-line"></i>
                     <h3>@lang('about.about_3_title')</h3>
                     <p>@lang('about.about_3_content')</p>
                     <a href="#">@lang('about.btn_more')</a>

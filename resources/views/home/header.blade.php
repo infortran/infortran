@@ -97,7 +97,7 @@
         <div class="item">
             <header id="home">
                 <!-- nav goes here -->
-                <div class="bg-img" style="background-image: url('/images/vtex.png');">
+                <div class="bg-img" style="background-image: url('/images/background.jpg');">
                     <div class="overlay"></div>
                 </div>
                 <div class="home-wrapper">

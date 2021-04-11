@@ -39,7 +39,8 @@
                     <div class="team-content">
                         <h3>Freddy Pérez</h3>
                         <span>(CEO) Director General,</span>
-                        <span>Full Stack Developer</span>
+                        <span>Full Stack Developer,</span>
+                        <span>Key Account Manager</span>
                     </div>
                 </div>
             </div>
@@ -58,6 +59,24 @@
                     <div class="team-content">
                         <h3>Alexander Pérez</h3>
                         <span>Frontend Developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{{asset('images/mayerlin-team.jpg')}}" alt="Mayerlin Urbina Key Account Supervisor">
+                        <div class="overlay">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-google-plus"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>Mayerlin Urbina</h3>
+                        <span>Key Account Supervisor</span>
                     </div>
                 </div>
             </div>

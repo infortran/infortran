@@ -54,7 +54,7 @@
                         <span>Website</span>
                         <h3>Cellsim</h3>
                         <div class="work-link">
-                            <a href="https://cellsim.cl"><i class="fa fa-link"></i></a>
+                            <a href="https://cellysim.cl"><i class="fa fa-link"></i></a>
                             <a class="lightbox" href="{{asset('/images/cellsim-portfolio.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>

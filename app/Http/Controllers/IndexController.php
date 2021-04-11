@@ -18,4 +18,8 @@ class IndexController extends Controller
         $lang = in_array($lang, $acceptLang) ? $lang : 'en';
         return redirect('/' .$lang);
     }
+
+    public function cotizador(){
+        return view('cotizador.index');
+    }
 }

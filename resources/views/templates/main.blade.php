@@ -17,6 +17,7 @@
     <meta name="robots" content="index,follow"/>
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('/favicon.ico')}}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{{asset('css/app.css')}}" />
     <link type="text/css" rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
     <link type="text/css" rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" />
     <link type="text/css" rel="stylesheet" href="{{asset('css/owl.theme.default.css')}}" />
@@ -38,7 +39,7 @@
 @yield('content')
 
 
-
+<script type="text/javascript" src="{{asset('js/app.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
