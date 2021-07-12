@@ -7,7 +7,7 @@
 Repositorio oficial de los proyectos desarrollados por el equipo de Infortran:
 
 
-- **[Cellsim Comunicaciones](https://cellsim.cl/)**
+- **[Cellsim Comunicaciones](https://cellysim.cl/)**
 - **[Estacion Riquelme](https://estacionriquelme.cl)**
 - **[Comercio Central](https://comerciocentral.cl)**
 
